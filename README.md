@@ -1,5 +1,6 @@
-Course Project for Coursera Getting and Cleaning Data 2014 course
-=================================================================
+Course Project
+==============
+**Course Project for Coursera Getting and Cleaning Data 2014 course**
 
 This repository consists of two other files:
 
@@ -12,7 +13,11 @@ This repository consists of two other files:
 Data Source
 -----------
 The raw data comes from the [HCI Machine Learning
-Repository](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).
+Repository](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
+and comes from recordings of 30 subjects performing activities of daily living
+(ADL) while carrying a waist-mounted smartphone (Samsung Galaxy S II) with
+embedded inertial sensors.
+
 
 Because the raw input data file is very large, it isn't included in the repo. 
 Instead, the `run_analysis.R` first includes intructions that downloads the
