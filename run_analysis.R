@@ -107,8 +107,8 @@ ns = features[relevantVars, "variable.name"]
 
 ns = gsub("BodyBody", "Body", ns)
 
-ns = gsub("^t", "time.", ns)
-ns = gsub("^f", "frequency.", ns)
+ns = gsub("^t", "timeDomain.", ns)
+ns = gsub("^f", "frequencyDomain.", ns)
 ns = gsub("Body", "body", ns)
 ns = gsub("Gravity", "gravity", ns)
 ns = gsub("Acc", ".acceleration", ns)
