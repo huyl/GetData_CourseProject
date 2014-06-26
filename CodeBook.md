@@ -55,25 +55,25 @@ The variables are organized in a hierarchy of subdivision, as reflected by the c
     - signals in the time domain (prefix 'timeDomain')
     - signals in the frequency domain, resulting by applying a Fast Fourier
       Transform (FFT) to some of the time-domain signals (prefix 'frequencyDomain')
-2. The time-domain signals can be themselves divided into 2 groups:
+1. The time-domain signals can be themselves divided into 2 groups:
     - signals related to the body's movement (prefix 'body')
     - signals related to the acceleration of gravity (prefix 'gravity')
-   For the frequency-domain signals, there are only variables related to the body's movement. (prefix 'body')
-3. For body signals, there are measurements from the two devices:
+1. For the frequency-domain signals, there are only variables related to the body's movement. (prefix 'body')
+1. For body signals, there are measurements from the two devices:
     - accelerometer (prefix 'acceleration')
     - gyroscope (prefix 'gyroscope')
-4. For gravity signals, there are only only measurements from the accelerometer (prefix 'acceleration')
-5. For body accelerometer and body gyroscope signals, the derivative in time was computed in order to obtain new variables representing the Jerk signals (prefix 'jerk')
-6. For all these three-axial signals, the magnitude was computed using the Euclidian norm to obtain new variabels (prefix 'magnitude')
-7. For all these variables, these statistics were calculated:
+1. For gravity signals, there are only only measurements from the accelerometer (prefix 'acceleration')
+1. For body accelerometer and body gyroscope signals, the derivative in time was computed in order to obtain new variables representing the Jerk signals (prefix 'jerk')
+1. For all these three-axial signals, the magnitude was computed using the Euclidian norm to obtain new variabels (prefix 'magnitude')
+1. For all these variables, these statistics were calculated:
     - mean (prefix 'mean')
     - standard deviation (prefix 'SD')
-8. The three-axial signals (i.e., all the variables without the subname 'magnitude') are subdivided into their respective dimensions:
+1. The three-axial signals (i.e., all the variables without the subname 'magnitude') are subdivided into their respective dimensions:
     - X (prefix 'X')
     - Y (prefix 'Y')
     - Z (prefix 'Z')
-9. At this point, all values were normalized and bounded within [-1,1].
-10. Finally, the variable subname 'average' is appended to each variable's chain of prefixes in order to denote the summarization function.
+1. At this point, all values were normalized and bounded within [-1,1].
+1. Finally, the variable subname 'average' is appended to each variable's chain of prefixes in order to denote the summarization function.
 
 ### Variable names
 
